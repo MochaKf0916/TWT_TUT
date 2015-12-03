@@ -1,15 +1,33 @@
 <html>
-<body>
-<form>
-<table>
-<tr><td>What kind of car would you like to buy?</td></tr>
-<tr><td></td><td></td></tr>
-<tr><td>What colour do you want on your car?</td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-<tr><td></td><td></td></tr>
-</table>
-</form>
-</body>
+  <body>
+    <form>
+      <table>
+      <tr><td>What kind of car would you like to buy?</td></tr>
+      <tr><td><input type="radio" name"car" value="Proton">Proton<br></td></tr>
+      <tr><td><input type="radio" name"car" value="Honda">Honda<br></td></tr>
+      <tr><td><input type="radio" name"car" value="Ferrari">Ferrari<br></td></tr>
+      <tr><td><input type="radio" name"car" value="Ford">Ford<br></td></tr>
+      <tr><td>What colour do you want on your car?</td></tr>
+      <tr><td>
+      <select name="colour">
+      <option value="White">White</option>
+      <option value="Red">Red</option>
+      <option value="Black">Black</option>
+      <option value="Blue">Blue</option>
+      </select>
+      </td><td>Other:</td><td><input type="text" name"other"></td></tr>
+      
+      <tr><td>What do you like about your car? </td></tr>
+      <tr><td><textarea rows="4" cols="50" name="comment"></textarea></td></tr>
+      <tr><td>Tell us how to get in touch with you:</td></tr>
+      <tr><td>Name:</td><td><input type="text" name"name"></td></tr>
+      <tr><td>E-mail:</td><td><input type="text" name"email"></td></tr>
+      <tr><td>Tel:</td><td><input type="number" name"tel"></td></tr>
+      <tr><td>Fax:</td><td><input type="text" name"fax"></td></tr>
+      
+      <tr><td><input type="checkbox" name"ASAP" value="yes">Please contect me as soon as possible regarding this matter.</td></tr>
+      <tr><td></td><td><input type="submit" value="Send">&nbsp&nbsp<input type="reset" value="Clear"></td></tr>
+      </table>
+    </form>
+  </body>
 </html>
